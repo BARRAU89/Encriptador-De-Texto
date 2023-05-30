@@ -84,8 +84,8 @@ function nota(){
     navigator.nota.writeText(texto_out.value);
 }
 
-let encriptado = document.querySelector('#encriptado');
-let desencriptado = document.querySelector('#desencriptado');
+let encriptado = document.querySelector('#enc');
+let desencriptado = document.querySelector('#des');
 let copiar = document.querySelector('#copiar');
 
 let traducir = {"a": "ai", "e": "enter", "i": "imes", "o": "ober", "u": "ufat"};
